@@ -321,6 +321,7 @@
     <ClInclude Include="..\..\Common\Crypto\sha1.h" />
     <ClInclude Include="..\..\Common\Crypto\sha256.h" />
     <ClInclude Include="..\..\Common\DbgNew.h" />
+    <ClInclude Include="..\..\Common\ExceptionHandlerSetup.h" />
     <ClInclude Include="..\..\Common\FileUtil.h" />
     <ClInclude Include="..\..\Common\FixedSizeQueue.h" />
     <ClInclude Include="..\..\Common\GraphicsContext.h" />
@@ -358,6 +359,7 @@
     <ClCompile Include="..\..\Common\Crypto\md5.cpp" />
     <ClCompile Include="..\..\Common\Crypto\sha1.cpp" />
     <ClCompile Include="..\..\Common\Crypto\sha256.cpp" />
+    <ClCompile Include="..\..\Common\ExceptionHandlerSetup.cpp" />
     <ClCompile Include="..\..\Common\FileUtil.cpp" />
     <ClCompile Include="..\..\Common\KeyMap.cpp" />
     <ClCompile Include="..\..\Common\LogManager.cpp" />

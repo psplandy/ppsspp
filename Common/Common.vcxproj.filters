@@ -73,6 +73,8 @@
     <ClInclude Include="OSVersion.h" />
     <ClInclude Include="Hashmaps.h" />
     <ClInclude Include="Vulkan\VulkanDebug.h" />
+    <ClInclude Include="ExceptionHandlerSetup.h" />
+    <ClInclude Include="MachineContext.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp" />
@@ -134,6 +136,7 @@
     <ClCompile Include="MemArenaDarwin.cpp" />
     <ClCompile Include="OSVersion.cpp" />
     <ClCompile Include="Vulkan\VulkanDebug.cpp" />
+    <ClCompile Include="ExceptionHandlerSetup.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Crypto">
