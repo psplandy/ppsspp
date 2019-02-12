@@ -18,7 +18,7 @@ public:
 	CodeBlockCommon() : region(nullptr), region_size(0) {}
 	virtual ~CodeBlockCommon() {}
 
-	bool IsInSpace(const u8 *ptr) {
+	bool IsInSpace(const u8 *ptr) const {
 		return (ptr >= region) && (ptr < (region + region_size));
 	}
 
