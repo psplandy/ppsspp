@@ -373,6 +373,7 @@ void VulkanRenderManager::CompileThreadFunc() {
 				break;
 			}
 		}
+		queueRunner_.NotifyCompileDone();
 	}
 }
 
