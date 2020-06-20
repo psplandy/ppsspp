@@ -344,7 +344,7 @@ struct ReportedConfigSetting : public ConfigSetting {
 
 const char *DefaultLangRegion() {
 	// Unfortunate default.  There's no need to use bFirstRun, since this is only a default.
-	static std::string defaultLangRegion = "en_US";
+	static std::string defaultLangRegion = "zh_TW";
 	std::string langRegion = System_GetProperty(SYSPROP_LANGREGION);
 	if (i18nrepo.IniExists(langRegion)) {
 		defaultLangRegion = langRegion;
